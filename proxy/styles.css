@@ -1,0 +1,46 @@
+/* 
+InfoContainer = styled.div`
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+margin-top: 30px;
+margin-left: 50px;
+z-index:1;
+`;
+
+Div = styled.div`
+position: ${(props) => (props.scroll ? 'relative' : 'fixed')};
+top: ${(props) => (props.scroll ? '' : '30px')}
+`; */
+
+#reviews {
+  width: 70%;
+  float: right;
+  margin-left: 200px;
+  padding-right: 70px;
+}
+
+#pic {
+  width: 75%;
+  padding-left: 200px;
+}
+
+#parent {
+  margin: 50px 20px;
+}
+.sticky {
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 50px;
+  z-index: 2;
+  height: 100%;
+}
+
+#reviews {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.nearby {
+  margin: 0 auto;
+  /* width:90%; */
+}
